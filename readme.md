@@ -4,6 +4,9 @@ Corne 3x5 keyboard with Miryoku key mappings (using Colemak DH keyboard layout).
 ![Miryoku](https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/cover/miryoku-kle-cover.png)
 
 
+## Preview
+![demo](https://github.com/omrobbie/corne-3x5-miryoku/blob/master/_res/demo.gif)
+
 ## How To Use
 
 ### Install QMK
@@ -50,3 +53,10 @@ WPM_ENABLE = yes
 ```
 qmk flash -c -kb crkbd -km manna-harbour_miryoku -e MIRYOKU_CLIPBOARD=MAC
 ```
+
+## Convert image as a logo
+![omrobbie](https://github.com/omrobbie/corne-3x5-miryoku/blob/master/_res/omrobbie.png)
+
+Tools:
+* [image2cpp](https://javl.github.io/image2cpp)
+* [QMK Logo Editor](https://joric.github.io/qle)
